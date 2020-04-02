@@ -8,20 +8,21 @@ meta =
 
     -- Name of your mod; You may want this to be unique, but it's not absolutely necessary.
     -- This is an additional helper attribute for you to easily identify your mod in the Mods() list
-    name = "GalaxyMapQoL",
+    name = "GalaxyMapQoL-Lite",
 
     -- Title of your mod that will be displayed to players
-    title = "Galaxy Map QoL",
+    title = "Galaxy Map QoL - Lite",
 
     -- Description of your mod that will be displayed to players
-    description = "Provides QoL changes for Galaxy Map, such as icons, resource and boss ranges, distance to center.",
+    description = "Provides QoL changes for Galaxy Map, such as icons, distance to center. Does not include resource and boss ranges. Original credit to Rinart73.",
 
     -- Insert all authors into this list
-    authors = {"Rinart73"},
+    authors = {"lonelord88"},
 
     -- Version of your mod, should be in format 1.0.0 (major.minor.patch) or 1.0 (major.minor)
     -- This will be used to check for unmet dependencies or incompatibilities
-    version = "1.3.1",
+    -- version = "1.3.1",
+    version = "0.1.0",
 
     -- If your mod requires dependencies, enter them here. The game will check that all dependencies given here are met.
     -- Possible attributes:
@@ -54,5 +55,5 @@ meta =
     saveGameAltering = false,
 
     -- Contact info for other users to reach you in case they have questions
-    contact = "rinart73@gmail.com",
+    contact = "hammerstefan@gmail.com",
 }
